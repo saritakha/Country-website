@@ -1,0 +1,57 @@
+body, html {
+  margin: 0;
+  height: 100%;
+  font-family: sans-serif;
+  line-height: 1.8em;
+  padding: 0;
+  font-size: 25px;
+}
+
+.img1, .img2, .img3, .img4, .img5{
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+}
+
+.p1{
+  font-size: 30px;
+}
+
+.img2{
+
+  background-image: url('img/map.jpg');
+  min-height: 400px;
+
+}
+
+.img3{
+
+  background-image: url('img/everest.jpg');
+  min-height: 400px;
+}
+
+.img4{
+
+  background-image: url('img/lumbini.jpg');
+  min-height: 400px;
+
+}
+
+.img5{
+
+  background-image: url('img/scene.jpg');
+  min-height: 400px;
+
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+  background-color: black;
+  color: white;
+
+
+}
